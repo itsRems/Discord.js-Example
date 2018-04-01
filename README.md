@@ -31,4 +31,4 @@ You wanna make your bot customized af? Let's do it! First, check the requirement
 
 You have all you need? Well... I don't have much more to say.
 Simply open the index.js file with your text editor: you'll find tons of informations! I added a description for every of the commands showed. With those you will be able to make a cool discord bot for you and all of your friends :O.
-If my example didn't show you enough, be sure to check [Discord.js Documentation](https://discord.js.org/#/docs/main/stable/general/welcome) or create a Pull Request.
+If my example didn't show you enough, be sure to check [Discord.js Documentation](https://discord.js.org/#/docs/main/stable/general/welcome) or create an Issue.

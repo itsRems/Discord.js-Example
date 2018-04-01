@@ -11,14 +11,14 @@ A simple and complete Discord.js bot example
   * Now, type
     >npm install discord.js --save
 * When done, create a new app on the [Discord developers Portal](https://discordapp.com/developers/applications/me/). 
- * Click on *New App* and choose a Name for your bot.
- * When done, click *Create a Bot User* . **Be carefull!** Your bot will have the same @username as your App Name.
- * To get the bot into your server, click on *Generate OAuth2 URL* and check "Admin" in permissions. Copy the link, paste it on your web browser and add the Bot to your server.
+  * Click on *New App* and choose a Name for your bot.
+  * When done, click *Create a Bot User* . **Be carefull!** Your bot will have the same @username as your App Name.
+  * To get the bot into your server, click on *Generate OAuth2 URL* and check "Admin" in permissions. Copy the link, paste it on your web browser and add the Bot to your server.
 * Now, we need to setup the bot itself!
- * Open the *config.json* file and set the prefix to whatever you want.
- * In that same file, copy the bot token (*it can be found on you bot's App page*)
+  * Open the *config.json* file and set the prefix to whatever you want.
+  * In that same file, copy the bot token (*it can be found on you bot's App page*)
 * Starting the bot
- * Starting the bot is easy: simply open a new bash on your bot's folder and type `node .` (*Tip: to exit node on your terminal, type Ctrl+C*)
+  * Starting the bot is easy: simply open a new bash on your bot's folder and type `node .` (*Tip: to exit node on your terminal, type Ctrl+C*)
 * That's it! The bot should be Running.
 
 

@@ -5,7 +5,7 @@ A simple and complete Discord.js bot example
   * [Node.js](https://nodejs.org/)
   * (optionnal) I recommand using a command bash different than cmd, like [gitforwindows](https://gitforwindows.org/)
 
-#Setup
+# Setup
 * First we need to install discord.js
   * Open a new bash (cmd/git) into the bot directory
   * Now, type
@@ -22,7 +22,7 @@ A simple and complete Discord.js bot example
 * That's it! The bot should be Running.
 
 
-#Editing the bot
+# Editing the bot
 You wanna make your bot customized af? Let's do it! First, check the requirement here:
 * Bot editing requirements.
   * A text Editor. I recommend using Visual Studio Code when editing Discord Bots because you can have a console on the editor, wich is cool when you wanna restart your bot everytime you change wanna test something. If you don't, Atom will become your new friend!

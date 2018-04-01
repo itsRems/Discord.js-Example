@@ -25,9 +25,9 @@ A simple and complete Discord.js bot example
 #Editing the bot
 You wanna make your bot customized af? Let's do it! First, check the requirement here:
 * Bot editing requirements.
- * A text Editor. I recommend using Visual Studio Code when editing Discord Bots because you can have a console on the editor, wich is cool when you wanna restart your bot everytime you change wanna test something. If you don't, Atom will become your new friend!
- * [Discord.js Documentation](https://discord.js.org/#/docs/main/stable/general/welcome). I mean, of course you'll need it! All the discord.js functions can be found there.
- * Google. Google is your friend! Use it whenever you need it: research your console bug report, check for some cool functions to add on your code,...
+  * A text Editor. I recommend using Visual Studio Code when editing Discord Bots because you can have a console on the editor, wich is cool when you wanna restart your bot everytime you change wanna test something. If you don't, Atom will become your new friend!
+  * [Discord.js Documentation](https://discord.js.org/#/docs/main/stable/general/welcome). I mean, of course you'll need it! All the discord.js functions can be found there.
+  * Google. Google is your friend! Use it whenever you need it: research your console bug report, check for some cool functions to add on your code,...
 
 You have all you need? Well... I don't have much more to say.
 Simply open the index.js file with your text editor: you'll find tons of informations! I added a description for every of the commands showed. With those you will be able to make a cool discord bot for you and all of your friends :O.

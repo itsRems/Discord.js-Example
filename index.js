@@ -31,6 +31,59 @@ bot.on('message', message => {
         message.reply('Pong! :ping_pong:'); //When using "message.reply", the bot will firt mention the user and the send the text you set after
     };
 
+    //Avatar command example
+    if (msg === prefix + `AVATAR`) {
+
+        message.reply(message.author.avatarURL); //Getting the URL of the message author's avatar and sends it back with a mention
+    };
+
+    //DM command example
+    if (msg === prefix + "DM EXAMPLE") {
+
+        message.author.send('Hello'); //Sends a Direct Message
+    };
+
+    //Embed message URL
+    if (msg === prefix + "EMBED") {
+
+        console.log(`${sender.tag} requested embed example command`); //This is a little trick I use: it will send a console log everytime someones request the command
+        message.reply({ //This will send a embed message: all the embed message documentation can be found on Discord.js official website
+            embed: {
+                color: 0x0099ff,
+                title: 'Discord.js',
+                url: 'https://discord.js.org',
+                author: {
+                    name: 'Dev par itsRems',
+                    icon_url: 'https://randomsite.com/your_image_url',
+                    url: 'https://itsrems.com',
+                },
+                description: 'This bot is developed by itsRems using Discord.js',
+                thumbnail: {
+                    url: 'https://randomsite.com/your_image_url',
+                },
+                fields: [
+                    {
+                        name: 'Title field',
+                        value: 'Description',
+                    },
+                    {
+                        name: '!embed', 
+                        value: 'Shows this message',
+                        inline: true, 
+                    }
+                ],
+                image: {
+                    url: 'https://randomsite.com/your_image_url',
+                },
+                timestamp: new Date(),
+                footer: {
+                    text: "Copyright © itsRems 2018",
+                    icon_url: 'https://randomsite.com/your_image_url',
+                },
+            },
+        });
+    };
+
     //"Ping" command example
     if (msg === prefix + 'PING') { //Telling the bot to react to "!ping"
 
